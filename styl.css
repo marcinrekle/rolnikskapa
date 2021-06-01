@@ -1,0 +1,1777 @@
+html {
+	border: 0;
+	
+	background: url("PLIKI/tlo.jpg");
+	padding: 0px;
+	margin: 0px;
+	background-attachment: fixed;
+	font-family: tahoma;
+	color:white;
+}
+
+body {
+	border: 0;
+	padding: 0;
+	margin: auto;
+	width: 800px;
+	
+	background: rgba(0, 255, 0, 0.1);
+}
+
+p {
+	text-indent: 10px;
+	color:white;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr td {
+	font-size: 12px;
+	border-bottom: 1px solid white;
+	padding: 0;
+	background: rgb(40, 120, 34);
+	color: white;
+}
+
+.tyt {
+	width: 100%;
+	background: url("PLIKI/tlo_tyt.jpg") center repeat-x;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	padding: 4px 0px;
+	text-indent: 22px;
+	color: white;
+}
+
+.panel {
+	width: 100%;
+	border: 1px solid black;
+	margin-bottom: 2px;
+	float: left;
+	background: rgb(40, 120, 34);
+	color: white;
+}
+
+#naglowek {
+	width: 800px;
+	height: 200px;
+	border: none;
+	background: url("PLIKI/naglowekn.jpg") no-repeat;
+	font-size: 13px;
+	margin-bottom: 2px;
+}
+
+.nag_a {
+	width: 800px;
+	height: 182px;
+	border: none;
+	color: white;
+}
+
+#lewy_bok {
+	width: 150px;
+	float: left;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menu {
+	width: 150px;
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 4px;
+}
+
+dl,dt,dd {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+dl {
+	width: 150px;
+}
+
+#menu dt {
+	background: url("PLIKI/tlo_tyt.jpg") center repeat-x;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	text-indent: 5px;
+	border-top: 1px solid black;
+	border-bottom: 2px solid black;
+	padding: 2px 0px;
+}
+
+#menu dd {
+	border-bottom: 1px solid white;
+	text-indent: 7px;
+	padding: 2px 0px;
+	background: url("PLIKI/menu_a2_tlo.gif") center repeat-x;
+	
+	
+}
+#menu dd a{
+	-webkit-transition:All 0.5s linear;
+	-moz-transition:All 0.5s ease-in-out; 
+	-o-transition:All 0.5s ease-in-out;
+	-webkit-transform:  rotate(0deg) scale(1) skew(0deg) translate(0px);
+	-moz-transform:  rotate(0deg) scale(1) skew(0deg) translate(0px);
+	-o-transform:  rotate(0deg) scale(1) skew(0deg) translate(0px); 
+}
+
+#menu dd a:link, #menu dd a:visited {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	background:0;
+}
+
+#menu dd a:hover {
+	position:relative;
+	z-index:100;
+	color:red;
+	-webkit-transform:  rotate(0deg) scale(1.5) skew(0deg) translate(30px,-1px);
+	-moz-transform:  rotate(0deg) scale(1.5) skew(0deg) translate(30px);
+	-o-transform:  rotate(0deg) scale(1.5) skew(0deg) translate(30px); 
+}
+
+#tresc {
+	width: 450px;
+	border: none;
+	margin: 0;
+	float: left;
+	padding: 0 5px;
+}
+
+#wyd {
+	width: 450px;
+	height: 250px;
+	padding: 0;
+	border: 1px solid black;
+	clear: both;
+	margin-bottom: 4px;
+	position:relative;
+}
+
+.wyd_img {
+	z-index: 1;
+	position: absolute;
+}
+
+.wyd_tlo {
+	width: 450px;
+	height: 80px;
+	z-index: 3;
+	position: absolute;
+	top: 170px;
+	background:rgba(40,120,36,.6);
+	background: -moz-linear-gradient(top,  rgba(2,219,2,0.05) 0%, rgba(22,168,20,0.59) 52%, rgba(36,131,33,0.8) 89%, rgba(40,120,37,0.85) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(2,219,2,0.05)), color-stop(52%,rgba(22,168,20,0.59)), color-stop(89%,rgba(36,131,33,0.8)), color-stop(100%,rgba(40,120,37,0.85)));
+	background: -webkit-linear-gradient(top,  rgba(2,219,2,0.05) 0%,rgba(22,168,20,0.59) 52%,rgba(36,131,33,0.8) 89%,rgba(40,120,37,0.85) 100%);
+	background: -o-linear-gradient(top,  rgba(2,219,2,0.05) 0%,rgba(22,168,20,0.59) 52%,rgba(36,131,33,0.8) 89%,rgba(40,120,37,0.85) 100%);
+	background: -ms-linear-gradient(top,  rgba(2,219,2,0.05) 0%,rgba(22,168,20,0.59) 52%,rgba(36,131,33,0.8) 89%,rgba(40,120,37,0.85) 100%);
+	background: linear-gradient(top,  rgba(2,219,2,0.05) 0%,rgba(22,168,20,0.59) 52%,rgba(36,131,33,0.8) 89%,rgba(40,120,37,0.85) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d02db02', endColorstr='#d9287825',GradientType=0 );
+}
+html>body*.wyd_tlo{
+	top:673px;
+}
+.wyd_tytul {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	z-index: 3;
+	width: 455px;
+	height: 50px;
+	position: absolute;
+	top: 180px;
+	text-align: center;
+}
+
+.wyd_opis {
+	z-index: 3;
+	width: 225px;
+	height: 30px;
+	position: absolute;
+	top: 230px;
+
+	text-align: center;
+}
+
+.wyd_galeria {
+	z-index: 3;
+	width: 225px;
+	height: 30px;
+	position: absolute;
+	top: 730px;
+	left: 350px;
+	text-align: center;
+}
+
+#wyd a:link,#wyd a:visited {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	text-shadow: 0px 0px 10px rgba(0,255,0,1);
+}
+
+#wyd a:hover {
+	-webkit-box-shadow: 0px 1px 3px #0f0;
+	-moz-box-shadow: 0px 1px 3px #0f0;
+	box-shadow: 0px 1px 3px #0f0;
+	background:rgba(0,255,0,.3);
+}
+
+.newsy {
+	width: 450px;
+	border: 1px solid black;
+	margin-bottom: 2px;
+	background: rgb(40, 120, 34);
+}
+
+.newsy_news {
+	border-bottom: 1px solid white;
+	text-indent: 5px;
+	padding: 2px 0;
+}
+
+.newsy_news a{
+	font-size:11px;
+}
+
+.panel_tresc {
+	width: 100%;
+	border: 1px solid black;
+}
+
+.panel_tresc p {
+	
+}
+
+#prawy_bok {
+	padding: 0;
+	margin: 0;
+	width: 190px;
+	border: none;
+	float: left;
+	font-size: 13px;
+}
+
+.uz_panel {
+	width: 170px;
+	padding: 10px;
+	margin: 0;
+}
+
+.login {
+	border: 1px solid white;
+	width: 80px;
+	background: rgb(40, 120, 34);
+	margin-top: 1px;
+	font-size: 12px;
+	color: white;
+}
+
+.przycisk {
+	background: url("PLIKI/button2.gif") no-repeat rgb(40, 120, 34);
+	width: 120px;
+	text-decoration: none;
+	margin: 0;
+	padding: 2px 0px;
+	margin: 1px 1px 1px 0px;
+	cursor: pointer;
+	font-size: 13px;
+	text-align: center;
+	color: white;
+	border: 0;
+	min-height:25px;
+}
+
+
+.panel_n_p {
+	width: 190px;
+	border: 1px solid black;
+	margin-bottom: 3px;
+	color: white;
+}
+
+.panel_n_p table {
+	width: 190px;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+.panel_n_p tr th {
+	width: 100%;
+	background: url("PLIKI/tlo_tyt.jpg") center repeat-x;
+	text-align: left;
+	text-indent: 7px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 12px;
+	color: white;
+	padding: 4px 0px;
+}
+
+.panel_n_p tr td {
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	border: 0;
+}
+
+.panel_rej {
+	width: 450px;
+	border: 2px solid black;
+	float: left;
+	background:rgb(40, 120, 34);
+}
+
+.rejestracja_opis {
+	font-size: 13px;
+	width: 430px;
+	padding: 10px;
+	clear: both;
+}
+
+.rejestracja_txt {
+	width: 140px;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 10px;
+	line-height: 21px;
+}
+
+.rejestracja_form {
+	width: 300px;
+	float: left;
+}
+
+.rejestracja_przycisk {
+	border: 1px solid white;
+	text-decoration: none;
+	margin: 0;
+	padding: 1px 6px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	cursor: pointer;
+}
+
+.terminarz, .tabela_liga {
+	width: 450px;
+	margin: 0;
+	border: 2px solid black;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+	background: rgb(40, 120, 34);
+	color: white;
+}
+
+.t_tytul {
+	font-weight: bold;
+	font-size: 18px;
+	text-indent: 15px;
+	border-top: 1px solid black;
+	padding: 25px 0;
+}
+
+.t_kolejka {
+	width: 450px;
+	min-height: 100px;
+	border: 0;
+	font-size: 12px;
+	float: left;
+}
+
+.t_kolejka_t {
+	font-size: 14px;
+	font-weight:bold;
+	border-bottom: 1px solid limeGreen;
+	padding:15px 0;
+	width:100%;
+	text-indent:15px;
+}
+.terminarz tr td:nth-child(1){
+	text-align:right;
+	width:25%;
+}
+.terminarz tr td:nth-child(2){
+	text-align:right;
+	width:30%;
+}
+.terminarz tr td:nth-child(3){
+	padding:0 3px;
+}
+.terminarz tr td:nth-child(4){
+	text-align:left;
+}
+.tabela_liga tr td:nth-child(2){
+	text-align:left;
+}
+.t_data {
+	font-size: 11px;
+	width: 70px;
+	float: left;
+	font-weight: normal;
+	padding: 2px;
+}
+.typer tr td:nth-child(5),.typer tr td:nth-child(6){
+	width:5%;
+}
+tr th{
+	border-bottom:1px solid white;
+}
+.t_godz {
+	font-size: 11px;
+	width: 20px;
+	float: left;
+	font-weight: normal;
+	padding: 2px;
+}
+
+.t_gosp {
+	width: 145px;
+	text-align: right;
+	float: left;
+}
+
+.t_kreska {
+	width: 10px;
+	text-align: center;
+	float: left;
+}
+
+.t_gosc {
+	width: 145px;
+	text-align: left;
+	float: left;
+}
+
+.t_wynik {
+	width: 40px;
+	text-align: center;
+	float: left;
+}
+
+.t_druzyny {
+	width: 310px;
+	text-align: center;
+	float: left;
+}
+
+.t_mecz {
+	width: 450px;
+	border-bottom: 1px solid limeGreen;
+	height: 20px;
+	overflow:hidden;
+}
+
+.t_walk {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.typer {
+	width: 450px;
+	border: 1px solid black;
+	background: rgb(40, 120, 34);
+	float:left;
+}
+.typer div {
+	float:left;
+	font-size:12px;
+}
+.typ_data{
+	width:70px;
+}
+.typ_godz{
+	width:40px;
+}
+.typ_spotkanie{
+	width:230px;
+	text-align:center;
+}
+.typ_typ{
+	width:50px;
+	height:20px;
+	position:relative;
+	overflow:hidden;
+}
+.typa{width:100px;}
+.typ_typ > a{position:absolute;width:100%;text-align:center;}
+.typ_wynik{
+	min-width:25px;
+}
+.typ_pkt{
+	min-width:25px;
+}
+#typ_typuj{
+	background:url("PLIKI/btn_ok.png")center no-repeat;
+
+}
+#typ_usun{
+	background:url("PLIKI/btn_close.png") center no-repeat;
+
+}
+#loading{
+	background:url("PLIKI/loading.gif") center no-repeat;
+	display:none;
+}
+#formularz select{
+	float:left;
+}
+.typer table {
+	width: 100%;
+	border-spacing: 1px;
+}
+
+.typer tr th {
+	background: green;
+	padding: 1px;
+	text-align: left;
+	text-indent: 1px;
+	font-size: 12px;
+}
+
+.typer tr td {
+	text-align: center;
+	font-size: 11px;
+}
+#typer_form{display:none;height:20px;position:absolute;left:110px;background:rgba(0,0,0,.6);padding:5px;border-radius:2px}
+#typer_form > input{
+	width:15px;
+	height:13px;
+	text-align:center;
+}
+.typer .im{
+	width:18px;
+	height:18px;
+	margin:1px;
+	display:inline-block;
+	vertical-align:middle;
+	float:none;
+}
+.komentarze {
+	width: 100%;
+	margin-bottom: 2px;
+	background: rgb(40, 120, 34);
+	color: white;
+	clear:both;
+}
+.komentarze .komentarz{
+	margin: 10px;
+	background:rgba(0,0,0,.1);
+	padding: 5px;
+}
+
+.komentarz_panel2 {
+	padding: 10px;
+}
+
+.komentarz .txt{
+	font-size: 12px;
+	//background: rgba(0,0,0,0.3);
+	//border: 1px solid rgba(0,0,0,0.3);
+	padding: 10px 5px;
+	color: white;
+	//-webkit-box-shadow:5px -20px 20px rgba(0,0,0,0.3),0px 20px 20px rgba(0,0,0,0.3);
+	//-moz-border-radius: 8px;
+	//border-radius: 8px;
+	text-shadow: 0px 0px 20px rgba(255,255,0,1);
+}
+
+.komentarz .podpis {
+	color: white;
+	font-size: 11px;
+	font-weight: bold;
+	text-shadow: 0px 0px 10px rgba(0,255,0,1);
+}
+
+.komentarz .txt .cytat {
+	background:rgba(255,255,255,.4);
+	color: green;
+	font-size: 10px;
+	text-shadow: 0px 0px 10px rgba(0,255,0,1);
+	padding:5px;
+	margin-bottom:8px;
+}
+.cytat .txt{
+	margin-left:7px;
+	color:green;
+	text-shadow:none;
+}
+.komentarze .dodaj{
+	padding:7px;
+}
+.dodaj a:visited, .dodaj a:link{
+
+}
+.komentarz_godz {
+	position: relative;
+	top: -10px;
+	left: 200px;
+	float: left;
+	width: 150px;
+	text-align: right;
+	clear: both;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.komentarz_dodaj {
+	padding: 10px;
+}
+
+.komentarz_dodaj_text {
+	background: rgba(0, 0, 0, 0.15);
+	width: 100%;
+	border: 1px solid black;
+}
+
+.komentarz_dodaj_przyc {
+	border: 1px solid black;
+	background: none;
+}
+
+.sklad {
+	border: 0;
+	width: 450px;
+	height:425px;
+	margin: 0;
+	z-index: 1;
+	padding: 0;
+	position: relative;
+	left: 5px;
+}
+
+.sklad_boisko {
+	border: 0;
+	z-index: 2;
+	background: url("PLIKI/boisko.png");
+	width: 250px;
+	min-height: 300px;
+	float: left;
+	margin: 0;
+}
+
+.sklad_ln {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+}
+
+.sklad_pn {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 20px;
+	left: 150px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+	clear: both;
+}
+
+.sklad_lp {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 80px;
+	left: 10px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+	float: left;
+}
+
+.sklad_spl {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 120px;
+	left: 60px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+	float: left;
+}
+
+.sklad_spp {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 120px;
+	left: 130px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+	float: left;
+}
+
+.sklad_pp {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 80px;
+	left: 190px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+	float: left;
+}
+
+.sklad_lo {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 180px;
+	left: 20px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+	float: left;
+	clear: both;
+}
+
+.sklad_sol {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 180px;
+	left: 100px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+	float: left;
+}
+
+.sklad_sop {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 220px;
+	left: 100px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+	float: left;
+}
+
+.sklad_po {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 180px;
+	left: 180px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+	float: left;
+}
+
+.sklad_br {
+	background: url("PLIKI/gracz.png");
+	position: absolute;
+	top: 260px;
+	left: 100px;
+	z-index: 3;
+	width: 50px;
+	height: 40px;
+	padding: 0px;
+	clear: both;
+}
+
+.naz {
+	border: 0;
+	text-align: center;
+	z-index: 3;
+	color: white;
+	font-size: 9px;
+	padding: 0;
+	width: 50px;
+}
+
+.sklad_sklad {
+	float: left;
+	margin: 0;
+	width: 180px;
+	min-height: 300px;
+	padding: 10px;
+}
+
+.sklad_zaw {
+	text-align: left;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+}
+
+.sklad_zmiana {
+	background: url("PLIKI/zmiana.gif") no-repeat;
+	height: 15px;
+	text-indent: 20px;
+	font-weight:bold;
+}
+
+.opis_meczu {
+	width: 100%;
+	background: rgb(40, 120, 34);
+	margin-bottom: 4px;
+	position: relative;
+	border: 1px solid black;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+.wprowadzenie {
+	font-size: 12px;
+	font-weight: bold;
+	text-indent: 10px;
+	text-align: justify;
+}
+
+.opis_meczu p {
+	font-size: 12px;
+	text-indent: 10px;
+	line-height: 18px;
+	margin: 5px;
+	text-align: justify;
+}
+
+.kadra {
+	background: rgb(40, 120, 34);
+	width: 450px;
+	border: 1px solid black;
+	float: left;
+	font-size: 13px;
+	color: white;
+}
+
+.kadra .panel {
+	width: 100%;
+	position: relative;
+	float: left;
+	background: rgba(0, 0, 0, 0.15);
+	border: 0;
+	margin: 1px;
+}
+
+.kadra .panel2 {
+	width: 100%;
+	position: relative;
+	float: left;
+	background: rgba(0, 0, 0, 0.25);
+	border: 0;
+	margin: 1px;
+}
+
+.kadra .text {
+	width: 130px;
+	border: 1px solid white;
+	float: left;
+	margin: 5px;
+	padding: 0px 3px;
+}
+
+.kadra .panel_text {
+	width: 330px;;
+	float: left;
+}
+
+.kadra .panel_foto {
+	width: 100px;;
+	padding: 5px;
+	float: left;
+}
+
+.kadra img {
+	border: 1px solid white;
+}
+
+.rozgrywki {
+	width: 450px;
+	border: 1px solid black;
+	background: rgb(40, 120, 34);
+	color:white;
+}
+
+.rozgrywki .content{
+	padding:5px;
+}
+
+.rozgrywki table {
+	width: 100%;
+	border-collapse: collapse;
+	text-indent: 4px;
+}
+
+.rozgrywki tr th {
+	background: darkgreen;
+	font-size: 12px;
+	padding: 1px;
+	text-align: right;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	text-shadow: 0px 0px 10px rgba(255,255,255,1);
+}
+
+.rozgrywki tr td {
+	font-size: 12px;
+	text-align: right;
+	empty-cells: show;
+	background:none;
+}
+
+.rozgrywki tbody > tr:nth-child(2){
+    background:rgba(0,240,0,.3);
+    text-shadow: 0px 0px 20px rgba(0,255,0,1);
+}
+.rozgrywki tbody > tr:nth-child(3){
+    background:rgba(0,240,0,.3);
+    text-shadow: 0px 0px 20px rgba(255,255,255,1);
+}
+
+.rozgrywki tr td:nth-child(2){
+    text-align:left;
+}
+
+.tlo_td1 {
+	background: url(PLIKI/tlo_td1.gif);
+}
+
+.tlo_td2 {
+	background: url(PLIKI/tlo_td2.gif);
+}
+
+.tlo_td3 {
+	background: url(PLIKI/tlo_menu_a2.gif);
+}
+
+.panel_sonda_form {
+	width: 220px;
+	display: block;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.panel_sonda_wynik {
+	width: 200px;
+	padding-left: 5px;
+	display: block;
+	float: left;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.panel_sonda_pyt_txt {
+	padding: 3px 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.odp {
+	margin-left: 0px;
+}
+
+.historia {
+	padding: 5px 15px;
+	font-size: 12px;
+}
+
+.historia p {
+	font-size: 12px;
+	text-align: justify;
+}
+
+.wyda {
+	float: left;
+	display: block;
+}
+
+.wydar {
+	height: 300px;
+}
+
+.shoutbox {
+	width: 190px;
+	border: 1px solid black;
+	margin-bottom: 2px;
+	float: left;
+}
+
+.shoutbox tr td {
+	border: 0;
+}
+
+.shoutbox input {
+	width: 130px;
+}
+.cbalink {
+display:none;
+}
+.kalendarz img{
+	float:left;
+}
+.kalendarz tr th{
+	padding:0;
+	font-size:12px;
+	font-weight:bold;
+	color:white;
+	text-align:left;
+	border:0;
+	border-top:1px solid white;
+}
+.kalendarz tr td{
+	font-size:20px;
+	text-align:center;
+	max-width:90px;
+}
+.kalendarz tr td b:first-child{
+	font-size:11px;
+}
+.kalendarz tr{
+	border:0;
+}
+.archiwum{
+	border:1px solid black;
+	color:white;
+}
+.content{
+	padding:5px;
+	background: rgb(40, 120, 34);
+	text-shadow: 0px 0px 10px rgba(0,255,0,1);
+}
+.archiwum ul{
+	font-size:12px;
+	font-weight:bold;
+	padding-left:10px;
+	list-style-type:none;
+}
+.archiwum li{
+	
+	padding:1px 0px;
+}
+.archiwum a{
+	text-shadow: 0px 0px 10px rgba(255,255,0,1);
+	font-size:11px;
+	font-weight:normal;
+	padding:3px 0px;
+}
+.ukryta{
+	display:none;
+}
+table#strzelcy tr th{
+	font:16px white;
+	font-weight:bold;
+	text-align:left;
+	
+}
+table#strzelcy tr td{
+	text-align:center;
+	font-weight:bold;
+}
+#editKal form a.btn_ok{
+	background:url("PLIKI/btn_ok.png")center no-repeat ;
+	float:right;
+	width:30px;
+}
+#data{
+	border:0;
+}
+form#editKal .btn_ok{
+	background:url("PLIKI/btn_ok.png")center no-repeat ;
+	font-size:20px;
+	float:left;
+}
+.btn_usun{
+	background:url("PLIKI/btn_del.png")center no-repeat ;
+	font-size:20px;
+	float:right;
+}
+.btn_ok{
+	background:url("PLIKI/btn_ok.png")center no-repeat;
+	font-size:20px;
+	float:right;
+}
+#editKal form a.btn_dodaj{
+	background:url("PLIKI/btn_dodaj.png")center no-repeat;
+	font-size:20px;
+	float:right;
+}
+a.btn_dodaj{
+	background:url("PLIKI/btn_dodaj.png")center no-repeat;
+	font-size:20px;
+}
+#editKal div{
+	font-size:12px;
+	font-weight:bold;
+	clear:both;
+	text-align:left;
+	padding:3px 5px;
+	vertical-align:center;
+}
+#editKal input{
+	width:65px;
+	background:rgb(40, 120, 34);
+}
+.btn_zamknij{
+	background:url("PLIKI/btn_close.png") center no-repeat;
+	font-size:20px;
+	float:right;
+}
+.sukces{
+	background:darkgreen;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	color:white;
+	border:2px solid white;
+	padding:5px;
+	margin:25px 40px;
+	width:300px;
+	z-index:300;
+	-webkit-border-radius: 10px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0px 0px 60px 6px rgba(0, 240, 0, 1);
+-moz-box-shadow: 0px 0px 60px 6px rgba(0, 240, 0, 1);
+box-shadow: 0px 0px 60px 6px rgba(0, 240, 0, 1);
+}
+.czekaj{
+	background:url("PLIKI/wait2.gif")center no-repeat;
+	margin:5px 40px;
+	width:300px;
+	height:60px;
+}
+#en_sklad{
+	
+}
+
+
+.zaw{
+	width:170px;
+}
+.zawodnik{
+	clear:both;
+}
+.poz{
+	width:20px;
+}
+.stat{
+	width:100px;
+}
+.zm{
+	width:15px;
+}
+.ps a:link, a:visited{
+	color:white;	
+}
+.popup{
+	z-index:1000;
+	position:absolute;
+	top:1570px;
+	left:200px;
+	width:300px;
+	border:2px solid black;
+	background:rgba(0,0,0,.9);
+}
+
+.btn{
+	margin: 5px;
+    padding: 3px 6px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 1px 1px 2px 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);	
+	font-weigth:normal;
+	background:rgba(0,0,0,.1);
+	color:white;
+}
+.btn_mod, .btn_mod{
+	font-weigth:bol !important;
+}
+.rez{
+	clear:both;
+	margin-left:15px;
+}
+
+
+#panelRej{
+	display:none;
+	padding:15px;
+	position:fixed;
+	width:300px;
+	top:100px;
+	left:400px;
+	background:rgba(0,240,20,.8);
+	border:10px solid rgba(255,255,255,.6);
+	border-radius:10px;
+	box-shadow: 0 0 0 1000px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 0 0 1000px rgba(0,0,0,0.6);
+	-o-box-shadow: 0 0 0 1000px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 0 0 1000px rgba(0,0,0,0.6);
+	z-index:9999999;
+}
+#panelRej h5{
+	margin:2px 2px 7px 2px;
+	font-size:13px;
+	text-shadow: 0px 0px 20px rgba(255,255,255,1);
+}
+#rej label{
+	font: bold 12px tahoma;
+	width:120px;
+	display:inline-block;
+}
+#rej input{
+	width:150px;
+	
+}
+#rej input [type="submit"]{
+	width:100px;
+	
+	
+}
+
+.clear{
+	clear:both;
+}
+label{
+	font: bold 12px tahoma;
+	width:120px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+/* NEWS */ 
+/* NEWS OGOLNE */
+.en a:link, .en a:visited{
+   margin: 5px;
+   padding: 3px 6px;
+   border: 1px solid rgba(0,0,0,0.5);
+   border-radius: 1px 1px 2px 2px;
+   box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);	
+	font-weight:normal;
+	display:inline-block;
+}
+.autor{
+	position:absolute;
+	color:rgba(255,255,255,.7);
+	padding:2px;
+	font:bold 10px tahoma;
+	background:rgba(0,0,0,.3);
+	z-index:100;
+	text-shadow: 0px 0px 10px rgba(0,255,0,1);	
+}
+
+/* TABELE */
+.opis_meczu table{
+	width:94%;
+	margin:10px;
+	border:1px solid black;
+	border-radius:2px;
+	background:rgba(0,0,0,.3);
+	border-collapse:separate;
+	border-spacing:5px 4px;
+	box-shadow:3px 3px 5px rgba(0,0,0,.6);
+	color:white;
+	font-weight:bold;
+}
+.opis_meczu tr th{
+	text-shadow:0px 0px 15px rgba(240,240,0,1);
+}
+.opis_meczu tr td{
+	border:1px solid rgba(0,0,0,.5);
+	background:rgba(0,0,0,.2);
+	box-shadow:2px 2px 2px rgba(0,0,0,.2);
+	padding:2px 5px;
+	border-radius:2px;
+	font-size:11px;
+}
+.opis_meczu tr> td:nth-child(2){
+	text-align:right;
+}
+.opis_meczu tr> td:nth-child(3), .opis_meczu tr> td:nth-child(1){
+	text-align:center;
+}
+/* KONIEC TABELE*/
+
+/* Koniec OGOLNE */
+/* NEWS WYNIK */
+.news_omeczu{
+	margin-left:4px;
+	width:98%;
+   	height:60px;
+}
+.news_wynik{
+	height:20px;
+	color:white;
+	font-weight:bold;
+	font-size:13px;
+	padding:3px 5px;
+	border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 1px 1px 2px 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+.news_wynik_gosp{
+	float:left;
+	width:45%;
+	text-align:right;	
+	padding-right:3px;
+}
+.news_wynik_wynik{
+	float:left;
+	width:8%;	
+	text-align:center;
+	background:rgba(255,255,255,.5);
+	color:green;
+}
+.news_wynik_gosc{
+	float:left;	
+	width:45%;
+	text-align:left;
+	padding-left:3px;
+}
+.news_bramki{
+	width:100%;
+}
+.news_bramki_gosp{
+	float:left;	
+	width:45%;
+	text-align:right;
+	padding:1px 1px 1px 4px;
+	box-shadow: inset 0 -15px 30px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 -15px 30px rgba(0,0,0,0.3);
+	-o-box-shadow: inset 0 -15px 30px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+.news_bramki_gosc{
+	float:right;
+	width:45%;	
+	padding:1px 1px 1px 4px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+.bramka{
+	padding:0px 4px;
+	color:white;
+	font-weight:bold;
+	font-size:11px;
+	margin:3px;
+	border-bottom:1px solid rgba(255,255,255,.5);
+	
+}
+/* Koniec NEWS WYNIK */
+/* NEWS SKLAD */
+.news_sklad{
+	padding-top:10px;
+	margin:5px;
+	box-shadow: inset 0 2px 6px rgba(0,0,0,0.5),0 2px 6px rgba(0,0,0,0.5), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5),0 2px 6px rgba(0,0,0,0.5), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-o-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5),0 2px 6px rgba(0,0,0,0.5), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0 2px 6px rgba(0,0,0,0.5),0 2px 6px rgba(0,0,0,0.5), inset 0 -15px 30px rgba(0,0,0,0.3);
+	border:1px solid rgba(0,0,0,.5);
+	position:relative;
+    border-radius: 1px 1px 2px 2px;
+    padding:3px;
+}
+.news_sklad_p{
+	float:left;
+	width:58%;
+}
+.news_sklad_r{
+	float:right;
+	width:38%;
+	background:url("PLIKI/herb.png") no-repeat bottom center;
+	min-height:350px;
+}
+.zawodnik{
+	position:relative;
+	font-size:12px;
+	color:white;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:1px 4px; 
+	box-shadow:inset 0 -15px 30px rgba(0,0,0,0.3),inset 0 2px 2px rgba(255,255,255,0.5);
+	-webkit-box-shadow:inset 0 -15px 30px rgba(0,0,0,0.3),inset 0 2px 2px rgba(255,255,255,0.5);
+	-o-box-shadow:inset 0 -15px 30px rgba(0,0,0,0.3),inset 0 2px 2px rgba(255,255,255,0.5);
+	-moz-box-shadow:inset 0 -15px 30px rgba(0,0,0,0.3),inset 0 2px 2px rgba(255,255,255,0.5);
+	border-radius: 1px 1px 2px 2px;
+	border:1px solid rgba(0,0,0,.5);
+}
+.nr{
+	width:16px;
+	height:16px;
+	background:rgba(255,255,255,.7);
+	color:green;
+	padding:1px;
+	font-size:11px;
+	display:inline-block;
+	text-align:center;
+	margin:2px 5px 2px 2px;
+}
+.zmiana{
+	padding-left:25px;
+	background:url("PLIKI/zmiana2.gif") no-repeat rgba(0,255,0,.4);
+}
+.zawodnik > img{
+	float:right;
+	padding-left:3px;
+}
+.trener{
+	background:rgba(0,0,240,.3);
+}
+.rezerwa{
+	background:rgba(0,240,0,.3);
+}
+.news_sklad_boisko{
+	background:url("PLIKI/boisko2.jpg")no-repeat;
+	width:99%;
+	clear:both;
+	border-radius: 1px 1px 2px 2px;
+	border:1px solid rgba(0,0,0,.5);
+	height:300px;
+}
+.gracz{
+	background:url("PLIKI/zaw.gif")no-repeat top center;
+	width:50px;
+	padding-top:45px;
+	text-align:center;
+	color:white;
+	font-size:8.5px;
+	position:relative;
+}
+.nazwisko{
+	box-shadow:inset 0 -15px 30px rgba(0,0,0,0.8),inset 0 2px 2px rgba(255,255,255,0.8);
+	-webkit-box-shadow:inset 0 -15px 30px rgba(0,0,0,0.8),inset 0 2px 2px rgba(255,255,255,0.8);
+	-o-box-shadow:inset 0 -15px 30px rgba(0,0,0,0.8),inset 0 2px 2px rgba(255,255,255,0.8);
+	-moz-box-shadow:inset 0 -15px 30px rgba(0,0,0,0.8),inset 0 2px 2px rgba(255,255,255,0.8);	
+	border-radius: 1px 1px 2px 2px;
+	border:1px solid rgba(0,0,0,.5);
+	height:15px;
+}
+.belka{
+	height:25px;
+	padding:8px 4px;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	background:rgba(0,0,0,.2);
+	width:97%;
+	border:1px solid rgba(0,0,0,.5);
+	box-shadow:inset 0 -5px 3px rgba(0,0,0,0.3),inset 0 3px 2px rgba(255,255,255,0.5);
+	-webkit-box-shadow:inset 0 -5px 3px rgba(0,0,0,0.3),inset 0 3px 2px rgba(255,255,255,0.5);
+	-o-box-shadow:inset 0 -5px 3px rgba(0,0,0,0.3),inset 0 3px 2px rgba(255,255,255,0.5);
+	-moz-box-shadow:inset 0 -5px 3px rgba(0,0,0,0.3),inset 0 3px 2px rgba(255,255,255,0.5);
+}
+.ln{
+	left:20px;
+	top:60px;
+}
+.451 > .ln{
+	left:20px;
+	top:117px;
+}
+.sn{
+	left:20px;
+	top:120px;
+}
+.op{
+	left:80px;
+	top:58px;
+}
+.pn{
+	left:20px;
+	top:115px;
+}
+.451 > .pn{
+	left:90px;
+	top:55px;
+}
+.pp{
+	left:120px;
+	top:-110px;
+}
+.spp{
+	left:160px;
+	top:-100px;
+}
+.spl{
+	left:160px;
+	top:-90px;
+}
+.lp{
+	left:120px;
+	top:-90px;
+}
+.po{
+	left:270px;
+	top:-535px;
+}
+.sol{
+	left:315px;
+	top:-315px;
+}
+.sop{
+	left:255px;
+	top:-375px;
+}
+.lo{
+	left:270px;
+	top:-150px;
+}
+.br{
+	left:375px;
+	top:-500px;
+}
+#lawka span{
+	display:block;
+}
+
+/* Koniec NEWS SKLAD */
+/* EDIT NEWS */
+#news_edit{
+	padding:5px;
+	font-size:12px;
+}
+#news_edit textarea{
+	width:300px;
+	height:120px;
+	margin-left:2px;
+}
+#en_sklad a:link, #en_sklad a:visited{
+   margin: 2px;
+   padding: 3px 5px;
+   border: 1px solid rgba(0,0,0,0.5);
+   border-radius: 1px 1px 2px 2px;
+   box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);	
+	display:block;
+	background:none;
+	float:left;
+}
+#opcje{
+	display:none;
+	position:absolute;
+	top:0;left:0;
+	padding:3px;
+	width:135px;
+	height:16px;
+	background:rgba(0,0,0,.7);
+}
+#opcje a:link, #opcje a:visited{
+	display:inline block;
+}
+#news_edit input[type="radio"]{
+	font-size:10px;
+}
+/* EDIT NEWS */
+/* Koniec NEWS */ 
+
+.licznik{
+	font:bold 20px sans-sheriff;
+	text-align:center;
+	letter-spacing:4px;
+}
+.ui-datepicker{
+	background:rgba(0,240,0,.8);
+	color:white;
+	border-radius:10px;
+	
+}
+.ui-datepicker td{
+	background:rgba(0,240,0,.2);
+}
+.ui-datepicker-title{
+	background:rgba(0,0,0,.5);
+}
+.ui-datepicker-prev{
+	height:20px;
+	width:20px;
+}
+.naj_kom{
+	border-bottom:1px solid white;
+	padding:2px 2px 2px 5px;
+	font-size:11px;
+}
+.naj_kom >a:first-child {
+	text-align:center;
+	font-size:11px;
+}
+.naj_kom >a:last-child {
+	font-size:11px;
+	font-weight:normal;
+	padding-left:8px;
+	padding-bottom:7px;
+}
+.naj_kom >span {
+	font-weight:normal;
+	padding-left:5px;
+}
+#loader{background:rgba(0,0,0,.3);display:none;position:absolute}
+#loader > img{
+	display:block;
+	margin:auto;
+}
+#stopka{
+	position:fixed;
+	bottom:0;
+	height:20px;
+	width:860px;
+	margin-left:-30px;
+	background:rgba(40,120,34,.1);
+	text-align:center;
+	font-size:14px;
+	color:rgba(255,255,255,.95);
+	background: -moz-linear-gradient(top,  rgba(40,120,34,0.2) 0%, rgba(40,120,34,0.45) 23%, rgba(40,120,34,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(40,120,34,0.2)), color-stop(23%,rgba(40,120,34,0.45)), color-stop(100%,rgba(40,120,34,1)));
+background: -webkit-linear-gradient(top,  rgba(40,120,34,0.2) 0%,rgba(40,120,34,0.45) 23%,rgba(40,120,34,1) 100%);
+background: -o-linear-gradient(top,  rgba(40,120,34,0.2) 0%,rgba(40,120,34,0.45) 23%,rgba(40,120,34,1) 100%);
+background: -ms-linear-gradient(top,  rgba(40,120,34,0.2) 0%,rgba(40,120,34,0.45) 23%,rgba(40,120,34,1) 100%);
+background: linear-gradient(top,  rgba(40,120,34,0.2) 0%,rgba(40,120,34,0.45) 23%,rgba(40,120,34,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33287822', endColorstr='#287822',GradientType=0 );
+text-shadow: 0px 0px 1px rgba(0,0,0,.8);
+}
+.edit{width:98%;height:150px;background:rgba(0,0,0,.1);margin:auto;color:white}
+#message{
+	z-index:1000;
+	position:absolute;
+	top:45%;
+	left:40%;
+	background:rgba(13,255,13,.75);
+	padding:10px;
+	border:5px solid rgba(0,0,0,.6);
+	border-radius:5px;
+	box-shadow:0 0 20px black;
+	width:200px;
+	height:35px;
+}
+table textarea{
+
+}
+#newRow{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 500;
+    background: rgba(133,255,133,1);
+    width: 80%;
+    margin: 10%;
+    border: 30px solid rgba(0,0,0,.4);
+    border-radius: 20px;
+    box-shadow: 0 0 30px black;
+}
+#newRow h1{
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+#newRow table{
+	width: 50%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+#newRow tr td{
+	border:0;
+	background:0;
+	padding:3px;
+}
+#newRow textarea{
+	height:20px;
+}
+#newRow span{
+	text-align:center;
+	border:1px solid black;
+	color:black;
+	border-radius:3px;
+	box-shadow:0 0 5px black;
+	padding:5px;
+	margin:10px auto;
+	width:20%;
+	display:block;
+	cursor:pointer;
+}
+.b_blue{
+	background:rgba(0,0,240,.5);
+}
+.ui-accordion-content{
+	background:limegreen;
+}
+.ui-autocomplete{
+	z-index:1000;
+}
+#fb-lb{
+	top:10%;
+	right:-301px;
+	position:fixed;
+}
+#fb-lb a{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:5px;
+}
+.fb-like-box{
+	background:white;
+	border-radius:5px;
+	border:5px solid #3b5998;
+}
+.fb-share-link:link,.fb-share-link:link{
+	margin-left: 10px;
+	vertical-align: top;
+	background: #eceef5 url('http://www.rolnikskapa.cba.pl/PLIKI/fb3-right.png') 4px no-repeat;
+	background-size: 12px;
+	text-indent: 20px;
+	display: inline-block;
+	padding: 0px 3px;
+	border-radius: 3px;
+	font-weight: normal;
+	color: #3b5998;
+	border: 1px solid #cad4e7;
+}

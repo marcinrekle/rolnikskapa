@@ -1,0 +1,802 @@
+html{
+		border:0;
+		*width:1024px;
+     	*background:url("PLIKI/tlo.jpg");
+     	padding:0px;
+     	*margin:auto;
+     	*background-attachment:fixed;
+		font-family:tahoma;
+}
+body{
+		*background:url("PLIKI/tlo.jpg") no-repeat fixed;
+}
+p{
+	text-indent:10px;
+	color:black;
+	font-size:14px;
+	font-weight:normal;
+}
+a{
+	color:black;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+}
+h1{
+	font-size:16px;
+	font-weight:bold;
+}
+table{
+	width:100%;
+	border-collapse:collapse;
+	border-color:black;
+}
+tr td{
+	font-size:12px;
+	border-bottom:1px solid black;
+	padding:0;
+	border-color:black;
+	color:white;
+}
+.tyt{
+	width:100%;
+   background:green;
+   border-bottom:1px solid black;
+	border-top:1px solid black;
+   font-size:12px;
+	font-weight:bold;
+   text-align:left;
+	padding:2px 0px;
+	text-indent:7px;
+}
+.panel{
+	width:100%;
+	border:1px solid black;
+	margin-bottom:2px;
+	float:left;
+}
+
+
+#naglowek{
+          width:800px;
+          height:200px;
+          border:none;
+          background:url("PLIKI/naglowek.gif") no-repeat;
+			 font-size:13px;
+}
+.nag_a{
+        width:800px;
+        height:160px;
+        border:none;
+
+}
+#lewy_bok{
+          width:150px;
+          float:left;
+          border:none;
+          padding:0;
+          margin:0;
+}
+#menu{
+      width:150px;
+      border:1px solid black;
+      padding:0;
+      margin:0;
+		margin-bottom:4px;
+}
+dl, dt, dd {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+dl{
+	width:150px;
+	
+}
+dt{
+	background:green;
+	color:black;
+	font-size:15px;
+	font-weight:bold;
+	text-indent:5px;
+	border-top:1px solid black;
+	border-bottom:2px solid black;
+}
+dd{
+	border-bottom:1px solid black;
+	text-indent:7px;
+}
+dd a:link,dd a:visited{
+	background:url("PLIKI/tlo_menu_a2.gif") repeat-x center;
+	display:block;
+	text-decoration:none;	
+	color:white;
+	font-size:14px;						
+}
+dd a:hover{
+	background:green;
+}
+#tresc{
+       width:450px;
+       border:none;
+       margin:0;
+       float:left;
+       padding:0 5px;
+}
+#wyd{
+     width:450px;
+	  height:250px;	
+     padding:none;
+     border:1px solid black;
+	  clear:both;	
+	  margin-bottom:4px;	
+}
+.wyd_img{
+         z-index:1;
+			position:absolute;
+}
+.wyd_tlo{
+         width:450px;
+         height:80px;
+         z-index:2;
+			position:absolute;
+         top:481px;
+			background:rgba(0,255,0,0.5);
+         
+}
+.wyd_tytul{
+           color:white;
+           font-size:24px;
+           font-weight:bold;
+           z-index:3;
+           width:455px;
+           height:50px;
+           position:absolute;
+			  top:480px;	
+           text-align:center;
+}
+.wyd_opis{
+         z-index:3;
+         width:225px;
+         height:30px;
+         position:absolute;
+			top:540px;left:120px;
+         text-align:center;
+}
+.wyd_galeria{
+             z-index:3;
+             width:225px;
+             height:30px;
+             position:absolute;
+				 top:540px;left:350px;
+             text-align:center;
+				 
+}
+#wyd a:link,#wyd a:visited{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	font-size:12px;
+}
+#wyd a:hover{
+	background:url("PLIKI/tlo_menu_a2.gif");
+}
+.newsy{
+       width:450px;
+       border:1px solid black;
+       margin-bottom:2px;
+       
+
+}
+.newsy_news{
+            border-top:1px solid black;
+            font-size:13px;
+				text-indent:5px;
+				padding:2px 0;
+}
+.panel_tresc{
+	width:100%;
+	border:1px solid black;
+}
+.panel_tresc p{
+	
+}
+#prawy_bok{
+           padding:0;
+           margin:0;
+           width:190px;
+           border:none;
+           float:left;
+			  font-size:13px;	
+}
+.uz_panel{
+          width:170px;
+          padding:10px;
+			 margin:0;
+}
+.login{
+       background:url("PLIKI/tlo_menu_a2.gif") repeat-x center;
+       border:1px solid black;
+       width:80px;
+       margin-top:1px;
+		 font-size:12px;
+		 
+}
+.przycisk{
+          background:url("PLIKI/tlo_menu_a2.gif") repeat-x center;
+          border:1px solid black;
+          text-decoration:none;
+			 margin:0;
+			 padding:0px 5px;
+			 margin: 1px 1px 1px 0px;
+          cursor:pointer;
+			 font-size:13px;
+			 text-align:left;
+			 
+}
+form a:link,form a:visited{
+	background:url("PLIKI/tlo_menu_a2.gif") repeat-x center;
+	text-decoration:none;
+	border:1px solid black;
+	margin:0;
+	padding:0px 5px;
+   margin:1px 0px;
+   cursor:pointer;
+	color:black;
+	font-size:13px;
+	display:block;
+	font-weight:normal;
+	width:95px;
+} 
+.panel_n_p{
+	width:190px;
+	border:1px solid black;
+	margin-bottom:3px;
+}
+.panel_n_p table{
+	width:190px;
+   padding:0;
+   border-collapse:collapse;
+}
+.panel_n_p tr th{
+	width:100%;
+	background:green;
+	text-align:left;
+	text-indent:7px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size:12px;
+}
+.panel_n_p tr td{
+	font-size:12px;
+	text-align:center;
+	color:black;
+	border:0;
+}
+.panel_rej{
+	width:450px;
+	border:2px solid black;
+	float:left;
+}
+.rejestracja_opis{
+						font-size:13px;
+                  width:430px;
+                  padding:10px;
+                  clear:both;
+
+}
+.rejestracja_txt{
+                 width:140px;
+                 float:left;
+                 font-size:13px;
+                 font-weight:bold;
+					  padding-left:10px;	
+					  line-height:21px;	
+}
+.rejestracja_form{
+                  width:300px;
+                  float:left;
+
+}
+.rejestracja_przycisk{
+			 background:url("PLIKI/tlo_menu_a.gif") repeat-x center;
+          border:1px solid black;
+          text-decoration:none;
+			 margin:0;
+			 padding:1px 6px;
+          margin-top:1px;
+			 margin-bottom:1px;
+          cursor:pointer;
+}
+
+
+
+
+.terminarz{
+           width:450;
+            margin:0;
+            border:2px solid black;
+            float:left;
+            text-align:center;
+}
+.t_tytul{
+           height:24px;
+           background:green;
+           font-weight:bold;
+           font-size:18px;
+           border-bottom:0;
+           text-indent:15px;
+           text-align:center;
+           border-top:1px solid black;
+           border-bottom:1px solid black;
+}
+.t_kolejka{
+           width:450px;
+           min-height:100px;
+           border:0;
+           font-size:12px;
+           font-weight:bold;
+           float:left;
+
+}
+.t_kolejka_t{
+           height:20px;
+           background:green;
+           font-weight:bold;
+           font-size:14px;
+           border-top:1px solid black;
+           border-bottom:2px solid black;
+           text-align:center;
+}
+.t_data{
+        font-size:11px;
+        width:70px;
+        float:left;
+        font-weight:normal;
+        padding:2px;
+}
+.t_godz{
+        font-size:11px;
+        width:20px;
+        float:left;
+        font-weight:normal;
+        padding:2px;
+}
+.t_gosp{
+        width:145px;
+        text-align:right;
+        float:left;
+}
+.t_kreska{
+          width:10px;
+          text-align:center;
+          float:left;
+}
+.t_gosc{
+        width:145px;
+        text-align:left;
+        float:left;
+}
+.t_wynik{
+         width:40px;
+         text-align:center;
+         float:left;
+}
+.t_druzyny{
+        width:310px;
+        text-align:center;
+        float:left;
+}
+.t_mecz{
+        width:450px;
+        border-bottom:1px solid black;
+        min-height:20px;
+}
+.t_walk{
+        font-size:10px;
+        font-weight:normal;
+}
+
+
+
+
+
+.typer{
+       width:100%;
+		 border:1px solid black;
+}
+
+.typer table{
+	width:100%;
+	border-spacing:1px;
+}
+.typer tr th{
+       background:green;
+       padding:1px;
+       text-align:left;
+       text-indent:1px;
+       font-size:12px;
+}
+.typer tr td{
+       text-align:center;
+       font-size:11px;
+}
+.komentarze{
+	border-bottom:1px solid black;
+}
+.komentarz_panel{
+
+                 background:rgba(0,0,0,0.15);
+                 padding:10px;
+
+}
+.komentarz_panel2{
+
+                 background:rgba(0,0,0,0.05);
+                 padding:10px;
+
+}
+.komentarz_txt{
+          font-size:14px;
+          background:rgba(255,255,0,0.15);
+          padding:5px;
+          color:black;
+}
+.komentarz_podpis{
+                  color:white;
+                  font-size:11px;
+                  font-weight:bold;
+                  background:rgba(255,255,0,0.15);
+
+}
+.komentarz_godz{
+                position:relative;top:-10px;
+                left:200px;
+                float:left;
+                width:150px;
+                text-align:right;
+                clear:both;
+                font-size:12px;
+                font-weight:bold;
+}
+.komentarz_dodaj{
+          padding:10px;
+}
+.komentarz_dodaj_text{
+                      background:rgba(0,0,0,0.15);
+                      width:100%;
+                      border:1px solid black;
+}
+.komentarz_dodaj_przyc{
+                       border:1px solid black;
+                       background:url("PLIKI/tlo_menu_a.gif") repeat-x center;
+}
+.sklad{
+            border:0;
+            width:450px;
+            height:325px;
+            margin:0;
+            z-index:1;
+            padding:0;
+            position:relative;left:5px;
+            
+}
+
+
+.sklad_boisko{
+              border:0;
+              z-index:2;
+              background:url("PLIKI/boisko.png");
+              width:250px;
+              min-height:300px;
+              float:left;
+              margin:0;
+}
+.sklad_ln{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:20px;
+              left:50px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              
+}
+.sklad_pn{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:20px;
+              left:150px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              clear:both;
+
+}
+
+.sklad_lp{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:80px;
+              left:10px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              float:left;
+
+}
+
+.sklad_spl{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:120px;
+              left:60px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              float:left;
+
+}
+.sklad_spp{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:120px;
+              left:130px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              float:left;
+
+}
+.sklad_pp{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:80px;
+              left:190px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              float:left;
+
+}
+.sklad_lo{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:180px;
+              left:20px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              float:left;
+              clear:both;
+}
+
+.sklad_sol{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:180px;
+              left:100px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              float:left;
+
+}
+.sklad_sop{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:220px;
+              left:100px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              float:left;
+
+}
+.sklad_po{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:180px;
+              left:180px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              float:left;
+}
+.sklad_br{
+              background:url("PLIKI/gracz.png");
+              position:absolute;
+              top:260px;
+              left:100px;
+              z-index:3;
+              width:50px;
+              height:40px;
+              padding:0px;
+              clear:both;
+}
+
+.naz{
+              border:0;
+              text-align:center;
+              z-index:3;
+              color:white;
+              font-size:9px;
+              padding:0;
+              width:50px;
+}
+
+.sklad_sklad{
+             float:left;
+             margin:0;
+             width:180px;
+             min-height:300px;
+             padding:10px;
+}
+.sklad_zaw{
+           text-align:left;
+           font-weight:bold;
+           font-size:12px;
+           color:white;
+}
+.sklad_zmiana{
+              background:url("PLIKI/zmiana.gif") no-repeat;
+              height:15px;
+              text-indent:20px;
+}
+
+.opis_meczu{
+            width:100%;
+            margin-bottom:4px;
+            position:relative;
+            border:1px solid black;
+				line-height:18px;
+				font-size:12px;
+}
+.wprowadzenie{
+              font-size:12px;
+              font-weight:bold;
+              text-indent:10px;
+				  text-align:justify;	
+}
+.opis_meczu p{
+            font-size:12px;
+            text-indent:10px;
+            line-height:18px;
+				margin:5px;
+				text-align:justify;
+}
+.kadra{
+
+	width:450px;
+	border:1px solid black;
+	float:left;
+	font-size:13px;
+}
+.kadra .panel{
+	width:100%;
+	position:relative;
+	float:left;
+	background:rgba(0,0,0,0.15);
+	border:0;
+	margin:1px:
+}
+.kadra .panel2{
+	width:100%;
+	position:relative;
+	float:left;
+	background:rgba(0,0,0,0.25);
+	border:0;
+	margin:1px:
+}
+.kadra .text{
+	width:130px;
+	border:1px solid black;
+	float:left;
+	margin:5px;
+	padding:0px 3px;
+	background:url("PLIKI/tlo_menu_a2.gif");
+}
+.kadra .panel_text{
+	width:330px;;
+	float:left;
+}
+.kadra .panel_foto{
+	width:100px;;
+	padding:5px;
+	float:left;
+}
+.kadra img{
+	border:1px solid yellow;
+}
+
+.rozgrywki{
+	width:450px;
+	border:1px solid black;
+}
+.rozgrywki table{
+	width:450px;
+	border-collapse:collapse;
+	text-indent:4px;
+}
+.rozgrywki tr th{
+	background:green;
+	font-size:12px;
+	padding:1px;
+	text-align:right;
+}
+.rozgrywki tr td{
+font-size:12px;
+	text-align:right;
+	empty-cells:show;
+}
+.tlo_td1{
+	background:url(PLIKI/tlo_td1.gif);
+}
+.tlo_td2{
+	background:url(PLIKI/tlo_td2.gif);
+}
+.tlo_td3{
+	background:url(PLIKI/tlo_menu_a2.gif);
+}
+.panel_sonda_form{
+	width:220px;
+	display:block;
+	float:left;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px;
+}
+.panel_sonda_wynik{
+	width:200px;
+	padding-left:5px;
+	display:block;
+	float:left;
+	font-weight:normal;
+	font-size:11px;
+}
+.panel_sonda_pyt_txt{
+	padding:3px 10px;
+	font-size:12px;
+	font-weight:bold;
+}
+.odp{
+	margin-left:0px;
+}
+.historia{
+	padding: 5px 15px;
+	font-size:12px;
+}
+.historia p{
+	font-size:12px;
+	text-align:justify;
+}
+.wyda{
+	float:left;
+	display:block;
+}
+.wydar{
+	height:300px;
+	
+}
+.shoutbox{
+	width:100%;
+	border:1px solid black;
+	margin-bottom:2px;
+	float:left;
+}
+.shoutbox tr td{
+	border:0;
+}
+.shoutbox input{
+	width:130px;
+}

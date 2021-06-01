@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+html{
+	font-family:tahoma;
+	font-size:12px;
+	color:white;
+	margin:0;
+	padding:0;
+	background:url("http://www.rolnikskapa.cba.pl/PLIKI/niebo3.jpg")no-repeat rgba(0,0,255,.9);
+}
+body{
+	width:1020px;
+	margin:0;
+	text-align: left; margin-left : auto; margin-right : auto;
+}
+#kontener{
+	position:absolute;
+	padding:50px;
+}
+#naglowek{
+	float:left;
+	width:40%;
+	height:60px;
+	background:url("http://www.rolnikskapa.cba.pl/PLIKI/logo14.png") no-repeat center;
+}
+#menu{
+	float:left;
+	width:60%;
+}
+#menu ul{
+	list-style:none;
+	float:left;
+}
+#menu ul li{
+	display:block;
+	float:left;
+	
+	
+}
+#menu ul li a:link,ul li a:visited{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px;
+	margin:10px;
+}
+
+#menu ul li a:hover{
+
+}
+#menu #akt a{
+	background:rgba(0,0,255,.9);
+	border-radius:15px;
+}
+#tresc{
+	clear:both;
+	background:rgba(255,255,255,.7);
+	width:900px;
+	height:500px;
+	padding:20px;
+	border-radius:20px;
+}
+.zaw{
+	width:27%;
+	background:rgba(0,0,255,.9);
+	margin:20px;
+	float:left;
+	height:450px;
+	border-radius:10px;
+	padding:5px;
+}
+.zaw_p{
+	width:96%;
+	background:rgba(0,0,255,.9);
+	margin:20px;
+	float:left;
+	height:100px;
+	border-radius:10px;
+	padding:5px;
+}
+.zaw ul li{
+	list-style:circle;
+	font-size:13px;
+	font-weight:bold;
+	line-height:30px;
+}
+#stopka{
+	
+}
+h1{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;	
+}

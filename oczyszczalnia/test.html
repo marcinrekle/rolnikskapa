@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Monitoring Gminnej Oczyszczalni Ścieków w Rząśni</title>
+<meta name="description" content="Gminna Oczyszczalnia Ścieków w Rząśni">
+<meta name="keywords" content="">
+<meta name="author" content="Marcin Kazuba">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="html5.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="jwplayer/jwplayer.js" ></script>
+
+</head>
+
+<body>
+<div id="contener">
+<aside id="INFORMACJE"></aside>
+<div id="TRESC" class="">
+<div id="contentTresc">
+<div id="myElement">Loading the player...</div>
+
+<script type="text/javascript">
+    jwplayer("myElement").setup({
+        file: "widzew.flv",
+        image: "/uploads/example.jpg",
+    });
+</script>
+<div id="SBRA" class="SBR">
+<div class="cykl">
+<div class="phase gray ">Napełnianie</div>
+<div class="phase gray">Napowietrzanie<span class="times">0 | 240</span></div>
+<div class="phase green active">Sedymentacja<span class="times">35 | 90</span><span class="times"></span></div>
+<div class="phase gray">Spust<span class="times">14:10</span></div>
+<div class="phase gray">Oczekiwanie</div>
+</div>
+<div class="zbiornik">
+<div class="red"><img src="img/dekRed2.gif" style="margin: 35px 10px"/><img src="img/dekGreen2.gif" style="margin: 35px 10px"/><img src="img/dek.gif" style="margin: 35px 10px"/></div>
+<div class="green low"><img src="img/pompa.gif" style="margin: 35px 10px"/><img src="img/pompaGreen.gif" style="margin: 35px 10px"/><img src="img/pompaRed.gif" style="margin: 35px 10px"/></div>
+</div>
+<div class="zbiornikInfo">
+<div class="green">Zasilanie</div>
+<div class="red">Praca</div>
+<div  class="gray">Tlen : 2303</div>
+</div>
+</div>
+<div id="SBRB" class="SBR">
+<div class="cykl">
+<div class="phase gray ">Napełnianie</div>
+<div class="phase green active">Napowietrzanie<span class="times">45 | 240</span></div>
+<div class="phase gray">Sedymentacja<span class="times">0 | 90</span><span class="times">13:10</span></div>
+<div class="phase gray">Spust<span class="times">14:10</span></div>
+<div class="phase gray">Oczekiwanie</div>
+</div>
+<div class="zbiornik">
+<div class="green"><img src="img/dek.gif" style="margin: 35px 10px"/></div>
+<div class="green low"><img src="img/mieszadlo.gif" style="margin: 35px 10px"/><img src="img/mieszadloGreen2.gif" style="margin: 35px 10px"/><img src="img/mieszadloRed.gif" style="margin: 35px 10px"/></div>
+</div>
+<div class="zbiornikInfo">
+<div class="green">Zasilanie</div>
+<div class="red">Praca</div>
+<div  class="gray">Tlen : 2303</div>
+</div>
+</div>
+</div>
+</div>
+<footer id="STOPKA">&copy; Marcin Kazuba</footer>
+</div>
+</body>
+
+</html>

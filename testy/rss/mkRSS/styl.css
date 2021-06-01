@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+html{
+	background:url("tloRss.jpg");
+	background-attachment: fixed;
+}
+body{
+	
+	width:1300px;
+	
+}
+#kontener{
+	
+	display: inline-block;
+	width:1300px;
+}
+#lewa{
+	width: 240px;
+	height:400px;
+	background:green;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	padding:10px;
+	color:white;
+}
+.btn{
+	padding:2px 10px;
+	margin:2px;
+	border:1px solid rgba(255,255,255,.3);
+	background:rgba(255,255,255,.1);
+	text-align: center;
+	cursor: pointer;
+	color:rgba(255,255,255,.5);
+}
+.folder{margin-left: 10px;background:rgba(255,255,255,.04);}
+.feed{font:12px Tahoma;padding-left: 15px;margin: 2px 2px 2px 10px;}
+.feed a.unread:link{font-weight:bold;}
+.feed a:link{font:12px tahoma;}
+.first{margin-left:15px;}
+.second{margin-left:30px;}
+.third{margin-left:45px;}
+.hide{display:none;}
+.arrow{width: 14px;height: 14px;}
+.arrowLeft{
+	background:url('arrow.png') no-repeat;
+	display: inline-block;
+}
+.arrowDown{
+	background:url('arrowDown.png') no-repeat;
+	display: inline-block;
+}
+.nonread{display: inline-block;}
+ul{
+	list-style: none;
+	font:12px tahoma;
+	
+}
+ul li {padding-left: 5px;}
+ul li {
+	list-style-position: inside;
+	padding-left: 5px;
+	margin:2px 0px 2px -25px;	
+	line-height: 15px;
+	font-size: 12px;
+}
+.arrowLeft{
+	list-style-image:url('arrow.png');
+}
+.arrowDown{
+	list-style-image:url('arrowDown.png');
+}
+.
+.unreadLi{font-weight:bold;}
+#tresc{
+	width:1020px;
+	display: inline-block;
+	
+}
+#contentRss{
+	overflow:auto;
+	padding: 2px;
+	height: 500px;
+	
+}
+a{text-decoration: none;font:bold 14px tahoma;color:white;}
+a:link , a:visited{color:white;}
+.channel{
+	height:150px;
+	width:237px;
+	background:blue;
+	margin:2px;
+	padding:10px 5px;
+	color:white;
+	display:inline-block;
+	text-shadow:  0px 0px 5px black;
+}
+.big{width: 491px;}
+h2.channel {color:white;}
+.channel .title{font:bold 16px arial;text-align: center;height:15%;}
+.channel .desc {font:bold 11px arial;width:85%;margin:auto;height: 55%;}
+.channel .desc {vertical-align: middle;margin:auto;}
+.channel .info{font:bold 50px arial;height:30%;text-align: right;}
+.channel .info span{font:bold 24px arial;text-align: right;}
+
+.item{width:700px; margin:5px 2px; padding:10px;background:rgba(255,128,0,.6);color:white;}
+.item .content{display:inline-block;width: 79%;}
+.item .desc{color:white;font-size:12px;width: 75%;display:inline-block;padding-left: 3px;}
+.item .desc2{color:white;font-size:14px;margin-top: 10px;padding-left: 10px;}
+.item .info{width:20%;display:inline-block;font-size:20px;text-align: center;} 
+.item .info:first-line{font-size:60px;line-height:45px;vertical-align: top;}
+.item a:link{color:white;}
+.item.read0 {border-left: 3px solid rgba(255,255,255,1);}
+.item.read1 {border-left: 3px solid rgba(255,255,255,.5);}
+.item.read2 {border-left: 3px solid rgba(255,255,255,0);}
+#userPanel{margin:10px;}
+#userPanel h1{color:rgba(255,255,255,.5);margin-bottom:50px;}
+#userPanel label{display: block;margin-bottom: 5px;color:rgba(255,255,255,.5);}
+#userPanel .text{height:25px;width:250px;display:block;margin-bottom:20px;text-align:left;cursor: auto;}
+#userPanel .loginBtn{padding:5px 20px;margin-top: 15px;}
+#loginPanel{display:inline-block;background: rgba(0,128,0,.8);margin-right: 10px;padding: 10px 70px 70px 70px;}
+#newAccount{display:inline-block;background: rgba(0,0,255,.8);padding:10px 70px 70px 70px;}
